@@ -1,0 +1,17 @@
+{
+  "name": "FORTUNA — Sua jornada financeira",
+  "short_name": "FORTUNA",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#090b0d",
+  "theme_color": "#090b0d",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

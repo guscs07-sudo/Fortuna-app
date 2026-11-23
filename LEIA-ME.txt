@@ -1,0 +1,46 @@
+FORTUNA v2.0
+============
+
+O QUE ENTROU NESTA VERSÃO
+- Galeria fotográfica premium no início, com três imagens locais incluídas no pacote.
+- As imagens entram no cache do app para continuar disponíveis offline depois da primeira abertura.
+- Desafios pré-definidos com prazos diferentes: curtos, 30, 60, 90 e 180 dias.
+- Ao criar uma meta, escolha prazo de 7, 15, 30, 45, 60, 90, 180 ou 365 dias.
+- Escolha depósitos diários, semanais ou mensais.
+- Se deixar os valores personalizados vazios, a FORTUNA calcula automaticamente as parcelas para atingir o valor desejado, ajustando os centavos.
+- Você ainda pode informar valores personalizados separados por vírgula.
+- Corrigida a duplicação visual da seção PJ e do atalho PJ.
+
+DADOS E PRIVACIDADE
+Os dados financeiros continuam salvos localmente neste aparelho. Faça backup antes de limpar os dados do Safari ou trocar de aparelho.
+
+BANCO DO BRASIL
+A integração real pela API Extratos v2 ainda não está conectada. O OFX continua sendo uma importação manual local. A API exige aprovação e configuração oficial do BB; o custo de produção ainda precisa ser confirmado.
+
+SEGURANÇA
+Nunca informe senha, OTP, Client Secret, token ou certificado privado no FORTUNA ou no chat.
+
+
+VERSÃO 2.0
+- Inclui exportação e restauração de backup JSON dos dados locais.
+- Restaurar substitui os dados atuais; faça um backup antes.
+
+
+VERSÃO 2.1 — FORTUNA SEM INTEGRAÇÃO BANCÁRIA
+- Removidas as telas, checklists, links e importação de extratos do Banco do Brasil.
+- O FORTUNA passa a focar em organização financeira pessoal com lançamentos manuais.
+- Nenhuma conexão bancária é necessária.
+
+
+VERSÃO 2.2
+- Cadastro de contas e entradas recorrentes por dia do mês.
+- Lista de vencimentos dos próximos 30 dias.
+- Previsão do saldo até o fim do mês, considerando lançamentos registrados e recorrências pendentes.
+- Marcar conta como paga/recebida cria lançamento no histórico e evita contabilização duplicada na previsão.
+
+
+VERSÃO 2.3 — TESTES E AJUSTES
+- Corrigida previsão mensal para considerar somente lançamentos do mês atual.
+- Contas recorrentes vencidas continuam aparecendo como pendentes e entram na previsão.
+- Restauração de backups antigos normaliza os campos de recorrências, orçamentos e desafios.
+- Service worker atualizado, incluindo o ícone e limpeza de caches antigos.
